@@ -4,7 +4,7 @@ import java.util.Set;
 public class DuplicateRemover {
 
     // Function to remove duplicates from an array
-    public int[] removeDuplicates(int[] nums) {
+    public static int[] removeDuplicates(int[] nums) {
         // Using LinkedHashSet to maintain insertion order and remove duplicates
         Set<Integer> uniqueElements = new LinkedHashSet<>();
 
